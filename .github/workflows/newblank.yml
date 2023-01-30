@@ -31,6 +31,6 @@ jobs:
       - name: java version test
         run: java -version
       - name: python version test
-        run: python -version
+        run: python -v
       - name: maven version test
         run: mvn -version
